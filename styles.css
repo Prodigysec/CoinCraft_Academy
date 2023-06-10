@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 590;
+    /* font-family: "Arial", Helvetica, sans-serif; */
+}
+
+.navbar-container {
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.navbar-container img,
+.navbar-container a {
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+.nav-links .links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.account-links .account {
+    display: flex;
+    list-style: none;
+    padding-left: 580px;
+    gap: 50px;
+}
