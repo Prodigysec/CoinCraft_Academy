@@ -90,11 +90,13 @@ body {
 
 
 
-.academy-pitch h3 {
+.academy-pitch #pitch-heading {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 .pitch-points {
     list-style: none;
 }
+
