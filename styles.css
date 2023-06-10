@@ -58,6 +58,7 @@ body {
 
 .proposition {
     padding-top: 65px;
+    padding-bottom: 55px;
 }
 
 .proposition *{
@@ -72,7 +73,18 @@ body {
     margin-top: 0px;
 }
 
+.proposition .description {
+    padding-bottom: 20px;
+}
+
 /* Add styles for graphics and description */
+
+button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .companies {
     background-color: #F2F4F7;
@@ -87,6 +99,7 @@ body {
 .companies img{
     width: 220px;
 }
+
 
 
 
