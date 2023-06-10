@@ -12,14 +12,24 @@ body {
 
 .navbar-container img,
 .navbar-container a {
-    padding-top: 15px;
+    padding-top: 10px;
     text-decoration: none;
 }
 
-.nav-links .links{
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-links .links {
     display: flex;
     list-style: none;
     gap: 50px;
+}
+
+.links a {
+    color: black;
 }
 
 .account-links .account {
@@ -27,4 +37,8 @@ body {
     list-style: none;
     padding-left: 580px;
     gap: 50px;
+}
+
+.account a {
+    color: black;
 }
