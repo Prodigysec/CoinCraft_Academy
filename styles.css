@@ -42,3 +42,16 @@ body {
 .account a {
     color: black;
 }
+
+.proposition *{
+    text-align: center;
+}
+
+.proposition h2 {
+    margin-bottom: 0px;
+}
+
+.proposition h1 {
+    margin-top: 0px;
+}
+
