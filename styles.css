@@ -75,34 +75,58 @@ body {
 } */
 
 .proposition {
-    padding-top: 90px;
+    padding-top: 150px;
     padding-bottom: 55px;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 }
 
 .proposition *{
     text-align: center;
 }
 
-.proposition h2 {
-    margin-bottom: 0px;
-}
-
 .proposition h1 {
+    margin-bottom: 0px;
     margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #F8F8F8;
 }
 
-.proposition .description {
+.proposition #proposition-statement {
+    color: #F8F8F8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.proposition .description p {
     padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-left: 60px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #F8F8F8;
 }
 
 /* Add styles for graphics and description */
 
-button-container {
+.button-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
+.button-container button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    height: 65px;
+    width: 300px;
+    border-radius: 80px;
+    border: none;
+    color: #F8F8F8;
+    background-color: #c2c247;
+}
 
 .companies {
     background-color: #F2F4F7;
