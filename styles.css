@@ -132,14 +132,26 @@ body {
     background-color: #F2F4F7;
     padding-top: 60px;
     padding-bottom: 60px;
+    
+}
+
+.horizontal-list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
 }
 
 .companies h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     text-align: center;
+    color: #6e829a;
 }
 
 .companies img{
-    width: 220px;
+    width: 280px;
 }
 
 
