@@ -154,17 +154,33 @@ body {
     width: 280px;
 }
 
+.academy-pitch {
+    padding-bottom: 50px;
+}
 
 .academy-pitch #pitch-heading {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #6e829a;
 }
 
 .pitch-points {
     list-style: none;
 }
 
+.pitch-points h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #5e6d9f;
+    font-size: 29px;
+}
+
+.pitch-points p {
+    font-family: 'Roboto', sans-serif;
+    color: #5a5959;
+}
 
 /* Style Team Members Section */
 
